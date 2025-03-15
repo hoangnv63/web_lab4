@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Exercise 1 Form</title>
+    <link rel="shortcut icon" href="assets/IUlogo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="IUlogo.png" alt="IU Logo" width="120">
+    <form action="ex1_thankyou.html">
+        <h2>Survey</h2>
+        <p>If you have a moment, we'd appreciate if you would fill out this survey.</p>
+        <h2>Your information</h2>
+        <table>
+            <tr>
+                <td><p>First Name</p></td>
+                <td><input type="text" size="33"></td>
+            </tr>
+            <tr>
+                <td><p>Last Name</p></td>
+                <td><input type="text" size="33"></td>
+            </tr>
+            <tr>
+                <td><p>Email</p></td>
+                <td><input type="email" size="33"></td>
+            </tr>
+            <tr>
+                <td><p>Date of Birth</p></td>
+                <td><input type="date" size="33"></tr>
+            </tr>
+        </table>
+    
+        <h2>How did you hear about us?</h2>
+        <input type="radio" name="hear" value="search">Search Engine
+        <input type="radio" name="hear" value="mouth">Word of Mouth
+        <input type="radio" name="hear" value="social">Social Media
+        <input type="radio" name="hear" value="other">Other
+        
+        <h2>Would you like to receive announcements about new CDs and special offers?</h2>
+        <input type="checkbox" name="announcement">YES, I'd like that.<br>
+        <input type="checkbox" name="announcement">YES, please send me email announcements.
+    
+        <div class="dropdơwn">
+            <h2>Please contact me by:</h2>
+            <select id="combo">
+                <option value="email postal">Email or postal mail</option>
+                <option value="email">Email only</option>
+                <option value="postal">Postal mail only</option>
+            </select>
+        </div><br>
+        <input type="submit" value="Submit">
+    </form>  
+</body>
+</html>
